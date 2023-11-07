@@ -8,7 +8,7 @@ The objective of this project was to create an end-to-end data platform on Azure
 
 
 
-![Architecture screenshot](Screenshot1.png)
+![Architecture screenshot](screenshot1.png)
 
 
 ## Using:
