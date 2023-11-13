@@ -21,10 +21,12 @@ Common usecase - migrate traditional DB to cloud
 
 Data Factory  //Ingestion
 ETL tool
+DF connects to on-prem server
+copy tables from DB & move to Data Lake
 
 Databricks  //transform data to cleanest form
 
-##Data Lake
+##Data Lake (gen 2)
 Bronze layer - raw data, source of truth, staging
 Silver layer - some data transformations
 Gold layer - cleanest curated data
