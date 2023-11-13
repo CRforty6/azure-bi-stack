@@ -1,0 +1,59 @@
+End to end Real time data engineering & reporting
+
+
+On-prem SQL Server
+Azure Data Services, Security & Governance tools
+Lakehouse architecture - raw, semi structured, unstructured data
+Power BI reporting
+Automated data pipeline - automate E2E data platform solution
+
+##Tools
+Data Factory
+Synapse Analytics
+Databricks
+Active Directory (Entra ID)
+Key Vault
+Power BI
+
+##Architecture
+On-prem SQL Server DB
+Common usecase - migrate traditional DB to cloud
+
+Data Factory  //Ingestion
+ETL tool
+
+Databricks  //transform data to cleanest form
+
+##Data Lake
+Bronze layer - raw data, source of truth, staging
+Silver layer - some data transformations
+Gold layer - cleanest curated data
+
+Synapse Analytics //Load the cleaned data to DB
+Create DB and tables
+Migrated data
+Acting as cloud SQL server
+
+***Data has been completely migrated
+
+
+Power BI  //Reporting
+Further analysis on data stored in Synapse Analytics
+Data reporting with visualizations, DAX and publishing to service
+
+Active Directory (Entra ID)
+Identity access mgmt
+Service principal
+
+Key Vault
+Store all the secrets
+
+
+
+##Development process
+Environment setup
+Data ingestion
+Data transformation
+Data Loading
+Data Reporting
+E2E Pipeline testing
